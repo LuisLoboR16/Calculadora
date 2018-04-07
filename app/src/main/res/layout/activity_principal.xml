@@ -14,9 +14,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:fontFamily="monospace"
         android:text="@string/calculadora"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textSize="24p"
+        android:textColor="@color/colorPrimary"
         tools:text="@string/calculadora" />
 
     <EditText
@@ -26,7 +28,8 @@
         android:layout_weight="1"
         android:ems="10"
         android:hint="@string/numero1"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent" />
 
     <EditText
         android:id="@+id/txtNumero2"
@@ -54,7 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button"
+            android:text="@string/calcular"
             tools:text="@string/calcular" />
 
         <Button
@@ -62,7 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button"
+            android:text="@string/limpiar"
             tools:text="@string/limpiar" />
 
     </LinearLayout>
