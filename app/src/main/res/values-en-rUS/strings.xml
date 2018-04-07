@@ -11,4 +11,6 @@
     <string name="restar">Subtraction</string>
     <string name="multiplicar">Multiplication</string>
     <string name="dividir">Division</string>
+    <string name="error_numero1">Type Number 1nd</string>
+    <string name="error_numero2">Type Number 2nd</string>
 </resources>

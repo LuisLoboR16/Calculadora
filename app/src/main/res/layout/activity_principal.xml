@@ -58,13 +58,16 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/calcular"
-            tools:text="@string/calcular" />
+            tools:text="@string/calcular"
+            android:onClick="Calcular"
+            />
 
         <Button
             android:id="@+id/btnLimpiar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="Limpiar"
             android:text="@string/limpiar"
             tools:text="@string/limpiar" />
 

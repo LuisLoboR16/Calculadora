@@ -16,4 +16,8 @@
         <item>@string/multiplicar</item>
         <item>@string/dividir</item>
     </array>
+    <string name="error_numero1">Digite Numero 1</string>
+    <string name="error_numero2">Digite Numero 2</string>
+    <string name="error_numero3">No se puede dividir por 0</string>
+
 </resources>
