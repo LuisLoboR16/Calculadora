@@ -11,7 +11,9 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
     @Test
-    public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
+    public void sumar_dos_numeros(){
+        double a=4, b=6;
+        assertEquals(10,Metodos.Sumar(a,b), 0);
     }
+
 }
